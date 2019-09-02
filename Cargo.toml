@@ -6,6 +6,7 @@ authors = ["egmkang wang <egmkang@outlook.com>"]
 edition = "2018"
 license = "MIT"
 
+readme = "README.md"
 repository = "https://github.com/egmkang/local_ipaddress"
 homepage = "https://github.com/egmkang/local_ipaddress"
 document = "https://docs.rs/local_ipaddress"

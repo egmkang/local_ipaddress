@@ -11,7 +11,7 @@ Add this to your Cargo.toml:
 
 ```
 [dependencies]
-local_ipaddress = "0.1.2"
+local_ipaddress = "0.1.3"
 ```
 
 ### Getting Started
