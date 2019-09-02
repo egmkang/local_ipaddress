@@ -4,7 +4,7 @@ Get your local ip address in Rust.
 
 ```
 [dependencies]
-local_ipaddress = "0.1.0"
+local_ipaddress = "0.1.1"
 ```
 
 then

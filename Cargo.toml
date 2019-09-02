@@ -1,6 +1,6 @@
 [package]
 name = "local_ipaddress"
-version = "0.1.0"
+version = "0.1.1"
 description = "Get your local IP address."
 authors = ["egmkang wang <egmkang@outlook.com>"]
 edition = "2018"
