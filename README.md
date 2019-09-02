@@ -21,4 +21,4 @@ It works fine with both `Windows` and `Linux`.
 
 ### License
 
-BSD 3-Clause License
+MIT
