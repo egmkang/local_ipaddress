@@ -1,5 +1,9 @@
+//! A crate for get local ip address,
+//! without using `ifconfig` or scanning `network interface`
+
 use std::net::UdpSocket;
 
+/// get the local ip address, return an `Option<String>`. when it fail, return `None`.
 pub fn get() -> Option<String> {
     let socket = match UdpSocket::bind("0.0.0.0:0") {
         Ok(s) => s,

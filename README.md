@@ -1,16 +1,23 @@
 # local_ipaddress
 
-Get your local ip address in Rust.
+Get your local ip address in Rust, using `UdpSocket` to get local ip address(not `network interface` or `ifconfig`), and won't `panic`.
+
+API Docs: [https://docs.rs/local_ipaddress](https://docs.rs/local_ipaddress)
+
+### Usage
+
+Add this to your Cargo.toml:
+
 
 ```
 [dependencies]
-local_ipaddress = "0.1.1"
+local_ipaddress = "0.1.2"
 ```
 
-then
+### Getting Started
 
 ```rust
-extern crate local_ipaddress;
+use local_ipaddress;
 
 fn main() {
     println!("{}", local_ipaddress::get().unwrap());
