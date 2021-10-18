@@ -24,7 +24,13 @@ fn main() {
 }
 ```
 
-It works fine with both `Windows` and `Linux`.
+Tested and working with:
+- Linux
+- Windows
+- macOS
+- Android
+- FreeBSD
+- NetBSD
 
 ### License
 
